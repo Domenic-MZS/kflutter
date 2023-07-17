@@ -29,13 +29,25 @@ dependencies:
   flutter:
     sdk: flutter
   kplayer_with_just_audio:
-    path: ../kplayer_with_just_audio
+    git:
+      url: https://github.com/Domenic-MZS/kflutter
+      ref: update-packages-local
+      path: kplayer/kplayer_with_just_audio
   kplayer_platform_interface:
-    path: ../kplayer_with_just_audio
+    git:
+      url: https://github.com/Domenic-MZS/kflutter
+      ref: update-packages-local
+      path: kplayer/kplayer_platform_interface
   kplayer_with_audioplayers:
-    path: ../kplayer_with_just_audio
+    git:
+      url: https://github.com/Domenic-MZS/kflutter
+      ref: update-packages-local
+      path: kplayer/kplayer_with_audioplayers
   kplayer_widgets:
-    path: ../kplayer_with_just_audio
+    git:
+      url: https://github.com/Domenic-MZS/kflutter
+      ref: update-packages-local
+      path: kplayer/kplayer_widgets
 
 dev_dependencies:
   flutter_driver:
